@@ -5,7 +5,7 @@
       dadzbog = {
         address = "192.168.88.122";
         gateway = "192.168.88.1";
-        interface = "enp1s0";
+        interface = "enp3s0";
       };
     };
     local = {
@@ -15,7 +15,7 @@
           v4 = "192.168.88.1/24";
           v6 = null;
         };
-        interface = "enp1s0";
+        interface = "enp3s0";
         trusted = true;
         reservations = {
           dadzbog = {
