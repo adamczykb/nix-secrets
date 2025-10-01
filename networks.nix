@@ -2,7 +2,7 @@
 {
   homelab.networks = {
     external = {
-      dadzbog = {
+      croton = {
         address = "192.168.88.122";
         gateway = "192.168.88.1";
         interface = "enp3s0";
@@ -18,8 +18,8 @@
         interface = "enp3s0";
         trusted = true;
         reservations = {
-          dadzbog = {
-            MACAddress = "b8:ae:ed:5f:4c:7c";
+          croton = {
+            MACAddress = "a8:b8:e0:06:3d:14";
             Address = "192.168.88.122";
           };
         };
